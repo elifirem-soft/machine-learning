@@ -1,11 +1,11 @@
 Bu çalışmada, öğrenicileri bir araya getirerek güçlü bir model oluşturan AdaBoost (Adaptive Boosting) algoritmasını uyguladım. Projenin ana odak noktası, topluluk öğrenme yöntemlerinin sınıflandırma başarısı üzerindeki etkisini gözlemlemektir.
 
 --- Neler Yaptım?
-Veri Seti Hazırlığı: Makine öğrenmesi dünyasının "merhaba dünya"sı sayılan Iris veri setini kullandım. Veriyi %30 test, %70 eğitim olacak şekilde stratejik bir şekilde böldüm.
+Veri Seti Hazırlığı: Makine öğrenmesi dünyasının Iris veri setini kullandım. Veriyi %30 test, %70 eğitim olacak şekilde stratejik bir şekilde böldüm.
 
-Zayıf Öğrenici Yapılandırması: AdaBoost'un temel taşı olan "Decision Stump" yapısını kurmak için tek derinlikli (max_depth=1) bir Karar Ağacı belirledim.
+Öğrenici Yapılandırması: AdaBoost'un temeli olan "Decision Stump" yapısını kurmak için tek derinlikli (max_depth=1) bir Karar Ağacı belirledim.
 
-Topluluk Modeli (Ensemble): Belirlediğim zayıf öğreniciyi 50 farklı aşamada (n_estimators=50) eğitecek olan AdaBoostClassifier modelini inşa ettim. Bu sayede modelin her adımda bir önceki hatalarına odaklanarak kendini geliştirmesini sağladım.
+Topluluk Modeli (Ensemble): Belirlediğim zayıf öğreniciyi 50 farklı aşamada (n_estimators=50) eğitecek olan AdaBoostClassifier modelini kurdum. Bu sayede modelin her adımda bir önceki hatalarına odaklanarak kendini geliştirmesini sağladım.
 
 Performans Analizi: Modelin tahmin gücünü accuracy_score ile ölçtüm ve sonuçları confusion_matrix kullanarak detaylandırdım.
 
