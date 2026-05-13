@@ -18,4 +18,6 @@ Algoritma: Random Forest (Ensemble Learning).
 
 Yöntem: Bagging (Bootstrap Aggregating).
 
---- Nasıl Çalışır? Random Forest, "akıl akıldan üstündür" prensibiyle çalışır. Eğitim aşamasında veri setinden rastgele örneklemler seçilerek 50 farklı karar ağacı birbirinden bağımsız olarak eğitilir. Tahmin aşamasında, yeni bir veri tüm ağaçlara sorulur. Her ağaç kendi kararını verir ve en çok oyu alan sınıf final sonuç olarak seçilir. Bu yöntem, tek bir karar ağacının aşırı öğrenme (overfitting) riskini minimize ederek çok daha güvenilir sonuçlar üretir.
+--- Nasıl Çalışır? 
+
+Random Forest, "akıl akıldan üstündür" prensibiyle çalışır. Eğitim aşamasında veri setinden rastgele örneklemler seçilerek 50 farklı karar ağacı birbirinden bağımsız olarak eğitilir. Tahmin aşamasında, yeni bir veri tüm ağaçlara sorulur. Her ağaç kendi kararını verir ve en çok oyu alan sınıf final sonuç olarak seçilir. Bu yöntem, tek bir karar ağacının aşırı öğrenme (overfitting) riskini minimize ederek çok daha güvenilir sonuçlar üretir.
