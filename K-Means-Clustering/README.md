@@ -18,4 +18,6 @@ Algoritma: K-Means Clustering.
 
 Yöntem: Gözetimsiz Öğrenme (Unsupervised Learning).
 
---- Nasıl Çalışır? Süreç, veri noktalarının koordinat sistemine yerleştirilmesiyle başlar. K-Means algoritması, başlangıçta rastgele merkez noktaları seçer ve her bir veri noktasını kendisine en yakın olan merkeze atar. Ardından, merkez noktaları atanan verilerin ortalamasına göre yeniden hesaplanır ve bu işlem gruplar stabilize olana kadar devam eder. Sonuç olarak veriler, birbirine en benzer oldukları (en yakın oldukları) gruplara ayrılmış olur.
+--- Nasıl Çalışır? 
+
+Süreç, veri noktalarının koordinat sistemine yerleştirilmesiyle başlar. K-Means algoritması, başlangıçta rastgele merkez noktaları seçer ve her bir veri noktasını kendisine en yakın olan merkeze atar. Ardından, merkez noktaları atanan verilerin ortalamasına göre yeniden hesaplanır ve bu işlem gruplar stabilize olana kadar devam eder. Sonuç olarak veriler, birbirine en benzer oldukları (en yakın oldukları) gruplara ayrılmış olur.
