@@ -14,4 +14,6 @@ Kütüphaneler: NumPy (Matematiksel işlemler ve Q-Tablosu yönetimi), Matplotli
 
 Algoritma: Q-Learning (Off-policy Reinforcement Learning).Yöntem: Takviyeli Öğrenme (Reinforcement Learning).
 
---- Nasıl Çalışır? Ajan başlangıçta dünyayı bilmez ve tamamen rastgele hareketler yapar. Her adımda çevreye bir eylem gönderir ve karşılığında bir ödül ile yeni bir durum (state) bilgisi alır. Aldığı ödüllere göre Q-Tablosundaki değerleri güncelleyerek hangi durumda hangi eylemin (yukarı, aşağı, sol, sağ) daha karlı olduğunu hafızasına kazır. Eğitim süreci ilerledikçe ajan rastgele hareketleri bırakır ve Q-Tablosundaki verilere dayanarak başlangıçtan hedefe giden en optimize rotayı izlemeye başlar.
+--- Nasıl Çalışır? 
+
+Ajan başlangıçta dünyayı bilmez ve tamamen rastgele hareketler yapar. Her adımda çevreye bir eylem gönderir ve karşılığında bir ödül ile yeni bir durum (state) bilgisi alır. Aldığı ödüllere göre Q-Tablosundaki değerleri güncelleyerek hangi durumda hangi eylemin (yukarı, aşağı, sol, sağ) daha karlı olduğunu hafızasına kazır. Eğitim süreci ilerledikçe ajan rastgele hareketleri bırakır ve Q-Tablosundaki verilere dayanarak başlangıçtan hedefe giden en optimize rotayı izlemeye başlar.
