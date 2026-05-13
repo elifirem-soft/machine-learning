@@ -17,4 +17,5 @@ Kütüphaneler: NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn
 Model: Yapay Sinir Ağları (Sequential Model)
 
 --- Nasıl Çalışır?
+
 Proje, prostate_cancer_data.csv dosyasından verileri yükleyerek başlar. İlk aşamada PSA seviyelerinin dağılım grafikleri oluşturulur. Ardından, özellikler ve etiketler ayrıştırılarak modelin eğitim süreci gerçekleştirilir. Model eğitildikten sonra, test verileri üzerinde tahminler yaparak doğruluk oranlarını ve hata matrisini çıktı olarak sunar.
