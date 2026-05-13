@@ -18,4 +18,6 @@ Algoritma: Random Forest Classifier.
 
 Yöntem: Grid Search Cross-Validation (Parametre Optimizasyonu).
 
---- Nasıl Çalışır? Süreç, Iris veri setinin yüklenmesi ve standart eğitim/test ayrımının yapılmasıyla başlar. Ardından oluşturulan parametre ızgarası (grid), GridSearchCV mekanizmasına verilir. Sistem, her bir kombinasyon için modeli tekrar eğiterek performans skorlarını karşılaştırır. En yüksek doğruluğu veren "Best Estimator" seçildikten sonra, bu optimize edilmiş model ile test seti üzerinden final metrikleri (Accuracy, Precision, Recall, F1) hesaplanarak süreç tamamlanır.
+--- Nasıl Çalışır? 
+
+Süreç, Iris veri setinin yüklenmesi ve standart eğitim/test ayrımının yapılmasıyla başlar. Ardından oluşturulan parametre ızgarası (grid), GridSearchCV mekanizmasına verilir. Sistem, her bir kombinasyon için modeli tekrar eğiterek performans skorlarını karşılaştırır. En yüksek doğruluğu veren "Best Estimator" seçildikten sonra, bu optimize edilmiş model ile test seti üzerinden final metrikleri (Accuracy, Precision, Recall, F1) hesaplanarak süreç tamamlanır.
