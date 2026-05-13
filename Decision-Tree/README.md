@@ -17,4 +17,5 @@ Algoritma: Decision Tree Classifier
 Kriter: Entropy (Bilgi Kazanımı)
 
 --- Nasıl Çalışır?
+
 Sistem, kullanıcı verilerini yükledikten sonra her bir özelliği birer soruya dönüştürerek ağaç yapısını oluşturur. Eğitim sürecinde, entropi değerini en çok düşüren özellikler ağacın üst düğümlerine yerleştirilir. Test aşamasında ise yeni gelen bir verinin bu düğümlerdeki sorulardan geçerek hangi yaprağa (sınıfa) düştüğü belirlenir ve nihai tahmin üretilir.
