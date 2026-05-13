@@ -16,4 +16,6 @@ Algoritma: Performans Metrikleri Analizi.
 
 Metrikler: Precision, Recall, Accuracy, F1-Score.
 
---- Nasıl Çalışır? Sistem, belirli bir örneklem sayısı üzerinden TN değerini sabit tutarak başlar. İç içe döngüler kullanarak olası tüm hata paylarını (FN ve FP) hesaplamaya dahil eder. Her bir iterasyonda, güncel değerlere göre tüm başarı metrikleri formüllere dökülür ve sonuçlar karşılaştırılabilir bir tablo formatında ekrana basılır. Bu süreç, model performansını yorumlama kabiliyetini artırmak için bir temel teşkil eder.
+--- Nasıl Çalışır? 
+
+Sistem, belirli bir örneklem sayısı üzerinden TN değerini sabit tutarak başlar. İç içe döngüler kullanarak olası tüm hata paylarını (FN ve FP) hesaplamaya dahil eder. Her bir iterasyonda, güncel değerlere göre tüm başarı metrikleri formüllere dökülür ve sonuçlar karşılaştırılabilir bir tablo formatında ekrana basılır. Bu süreç, model performansını yorumlama kabiliyetini artırmak için bir temel teşkil eder.
