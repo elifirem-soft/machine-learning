@@ -8,23 +8,16 @@ Bu repository modüler bir yapıda kurgulanmıştır. Her bir ana başlık (ANN,
 --- Neler Var?
 
 Sınıflandırma Modelleri
-
 Ensemble & Boosting
-
 Regresyon Analizleri
-
 Gözetimsiz Öğrenme
-
 Takviyeli Öğrenme
-
 Model Optimizasyonu
 
 --- Teknolojik Stack
 
 Diller ve Frameworkler: Python, TensorFlow, Keras.
-
 Veri Bilimi Araçları: Scikit-learn, Pandas, NumPy, SciPy.
-
 Görselleştirme: Matplotlib, Seaborn.
 
 --- Nasıl İncelenmeli?
