@@ -17,4 +17,5 @@ Algoritma: AdaBoost (Ensemble Learning)
 Temel Model: Decision Tree (Decision Stump)
 
 --- Nasıl Çalışır?
+
 Kod yürütüldüğünde ilk olarak Iris veri seti yüklenir ve eğitim/test ayrımı yapılır. Ardından AdaBoost algoritması, 50 adet zayıf karar ağacını ardışık olarak eğitir; her yeni ağaç, bir öncekinin yanlış sınıflandırdığı verilere daha fazla ağırlık vererek hataları telafi etmeye çalışır. Son aşamada ise test seti üzerindeki doğruluk oranı hesaplanarak terminale yazdırılır ve sınıflandırma başarısı görselleştirilir.
